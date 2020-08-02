@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
-
-
-
-
 import { Card, CardImg, CardBody, CardText, CardTitle } from 'reactstrap';
 
 class Dishdetail extends Component {
+    componentDidMount(){
+        console.log('DishDetail ComponentDidMount is invoked');
+    }
+    componentDidUpdate(){
+        console.log('DishDetail ComponentDidUpdate is invoked');
 
+    }
     renderComments(comments) {
         if (comments == null) {
             return (<div></div>)
@@ -53,12 +55,14 @@ class Dishdetail extends Component {
     }
 
     render() {
+        console.log('DishDetail ComponentDidMount  rennder is invoked');
+
         const dish = this.props.dish
         if (dish == null) {
             return (<div></div>)
         }
-        const dishItem = this.renderDish(dish)
-        const commentItem = this.renderComments(dish.comments)
+        const dishItem = this.renderDish(this.props.dish)
+        const commentItem = this.renderComments(this.props.dish.comments)
         return (
             <div className="container">
                 <div className='row'>
