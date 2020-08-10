@@ -8,7 +8,7 @@ import {
     CardSubtitle
 } from 'reactstrap';
 import { Loading } from './LoadingComponent';
-
+import { baseUrl } from '../shared/baseUrl';
 
 function RenderCard({item, isLoading, errMess}) {
 
@@ -26,7 +26,7 @@ function RenderCard({item, isLoading, errMess}) {
 return (
     <Card>
         <CardImg src={
-                item.image
+                baseUrl+item.image
             }
             alt={
                 item.name
@@ -58,7 +58,9 @@ function Home(props) {
                 <div className="col-12 col-md m-1">
                     <RenderCard item={
                         props.promotion
-                    }/>
+                    }
+                    isLoading={props.promosLoading} errMess={props.promosErrMess}
+                    />
                 </div>
                 <div className="col-12 col-md m-1">
                     <RenderCard item={
