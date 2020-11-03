@@ -39,7 +39,7 @@ The json-servor should be install to your machine.
   *(imp.)* **Shut down the server by typing ctrl-C in the terminal window.**
 
 
-####``3.Serving up the Images``
+#### ``3.Serving up the Images``
 
 **3.a):-** Create a public folder in your json-server folder.
 
