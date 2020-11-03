@@ -2,7 +2,7 @@
 
 Things you need to run:- 
 
-### `1.create-react-app`
+### `###1.create-react-app`
 
 You should have react development environment.
 
