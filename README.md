@@ -47,7 +47,7 @@ The json-servor should be install to your machine.
 **3.b):-** Download the [images.zip](https://d3c33hcgiwev3.cloudfront.net/dkYXuzfFEei9LwoRWz3xkg_77143c6037c511e8b2a51d62a734b875_images.zip?Expires=1604534400&Signature=YCUjllIoXR0cAaEJ8a8FfLp34sbvxMRK-RNvSHm0G9FeFZe-oYglxaYnK5c49UxeUnaDnrUdSQ23x5~WJaHek46DEBIReadrWkfpxTgujuRZ6z3hjMa2B6kspFCwx5mli9xyyRMkCeMuD2FTP~hZhvMqFl-n747lv66vZY81xQw_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A) file that we provide above, unzip it and move the images folder containing the images to the public folder.
 
 **3.c):-** Restart the json-server as we did before. Now your server will serve up the images for our React app. You can view these images by typing the following into your browser address bar:
-        **http://localhost:3001/images/<image name>.png**
+        **http://localhost:3001/images/image_name.png**
   
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
