@@ -12,13 +12,13 @@ The json-servor should be install to your machine.
 
 #### `To intall and use json-servor follow the instruction`.
 
-#####``1.Installing Json-Servor``
+##### ``1.Installing Json-Servor``
 
 **1.a):-** json-server is a node module, and hence can be installed globally by typing the following at the command prompt:
         **npm install json-server -g**
 
 
-#####``2.Configuring the Server``
+##### ``2.Configuring the Server``
 
 **2.a):-** At any convenient location on your computer, create a new folder named json-server, and move to this folder.
 
