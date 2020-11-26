@@ -26,7 +26,7 @@ The json-servor should be install to your machine.
 **2.b):-** Download the [db.json](https://d3c33hcgiwev3.cloudfront.net/mNhQRT-6EeieJwrYiMRpMg_99c854b03fba11e8bac2b7a30cba3e24_db.json?Expires=1604534400&Signature=RJ4mSC00Tk74EWR-Kx7VL8d7C9J4CnEZEhSF8aJ~q-21Z6KvzZJq8x-ibmNuvOujmTw9sSFXf3d-Nlitxuu-jpx4Ug8DQAPmn0IFxasvUoYtRYjbaLBScPB2Pw0XX7BgFJeGrATtt4GP5peOmaHaSlh~XkqVia9CQEL8dZp3cpo_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A) file provided above to this folder.
 
 **2.c):-** Move to this folder in your terminal window, and type the following at the command prompt to start the server:
-          **json-server --watch db.json -p 3001 -d 2000**
+          **npx json-server --watch db.json -p 3001 -d 2000**
          - This should start up a server at port number 3001 on your machine. The data from this server can be accessed by typing the following addresses into your browser address bar:
 > - http://localhost:3001/dishes
 > - http://localhost:3001/promotions
