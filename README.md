@@ -1,4 +1,4 @@
-![Image](https://github.com/ranjeet2003/React-course/blob/master/screencapture-localhost-3000-home-2020-11-04-00_53_23.png?raw=true)
+![Alt Text](https://im3.ezgif.com/tmp/ezgif-3-97786fb6ec4e.gif)
 ## Steps to run this project into your local machine
 
 Things you need to run:- 
